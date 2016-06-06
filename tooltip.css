@@ -1,0 +1,119 @@
+.tooltip {
+  position: absolute;
+  border: 1px solid #ccc;
+  background-color: #ffffcc;
+  padding: 8px;
+  border-radius: 5px;
+}
+.left:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-right: 11px solid #ffffcc;
+  position: absolute;
+  left: -10px;
+  z-index: 9;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.left:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-right: 10px solid #ccc;
+  position: absolute;
+  left: -11px;
+  z-index: 8;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+}
+.right:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 11px solid transparent;
+  border-bottom: 11px solid transparent;
+  border-left: 11px solid #ffffcc;
+  position: absolute;
+  right: -10px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  z-index: 9;
+}
+.right:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent;
+  border-left: 10px solid #ccc;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  position: absolute;
+  right: -11px;
+  z-index: 8;
+}
+.top:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 11px solid #ffffcc;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -10px;
+  z-index: 9;
+}
+.top:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-bottom: 10px solid #ccc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -11px;
+  z-index: 8;
+}
+.bottom:before {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 11px solid #ffffcc;
+  border-left: 11px solid transparent;
+  border-right: 11px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -10px;
+  z-index: 9;
+}
+.bottom:after {
+  content: "";
+  width: 0;
+  height: 0;
+  border-top: 10px solid #ccc;
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  margin: 0 auto;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -11px;
+  z-index: 8;
+}
